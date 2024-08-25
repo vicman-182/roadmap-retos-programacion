@@ -130,7 +130,9 @@ def mi_agenda():
                 nombre = input("\nIngrese el nombre: ")
                 numero = input("\nIngrese el numero: ")
                 if numero.isdigit() and len(numero) > 0 and len(numero) <= 11:
-                    mi_agenda[nombre] = numero
+                    print("hasta aqui correcto")
+                    agenda[nombre] = numero
+                    print(agenda)
                 else:
                     print("Debes de introducir un numero que tenga maximo 11 digitos")
             case "3":
